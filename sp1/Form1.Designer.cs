@@ -28,17 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFinanzas));
             this.label1 = new System.Windows.Forms.Label();
             this.TxtFinanzas = new System.Windows.Forms.Label();
             this.mrcGastosMensuales = new System.Windows.Forms.GroupBox();
-            this.txtAlquiler = new System.Windows.Forms.Label();
-            this.txtImpuestos = new System.Windows.Forms.Label();
-            this.txtComido = new System.Windows.Forms.Label();
-            this.txtSalidas = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtSalidas = new System.Windows.Forms.Label();
+            this.txtComido = new System.Windows.Forms.Label();
+            this.txtImpuestos = new System.Windows.Forms.Label();
+            this.txtAlquiler = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.lblGastosVarios = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -79,30 +80,47 @@
             this.mrcGastosMensuales.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mrcGastosMensuales.Location = new System.Drawing.Point(34, 102);
             this.mrcGastosMensuales.Name = "mrcGastosMensuales";
-            this.mrcGastosMensuales.Size = new System.Drawing.Size(373, 194);
+            this.mrcGastosMensuales.Size = new System.Drawing.Size(231, 194);
             this.mrcGastosMensuales.TabIndex = 3;
             this.mrcGastosMensuales.TabStop = false;
             this.mrcGastosMensuales.Text = "Gastos Mensuales";
             // 
-            // txtAlquiler
+            // textBox4
             // 
-            this.txtAlquiler.AutoSize = true;
-            this.txtAlquiler.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAlquiler.Location = new System.Drawing.Point(14, 43);
-            this.txtAlquiler.Name = "txtAlquiler";
-            this.txtAlquiler.Size = new System.Drawing.Size(61, 20);
-            this.txtAlquiler.TabIndex = 0;
-            this.txtAlquiler.Text = "Alquiler";
+            this.textBox4.Location = new System.Drawing.Point(95, 141);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 26);
+            this.textBox4.TabIndex = 7;
             // 
-            // txtImpuestos
+            // textBox3
             // 
-            this.txtImpuestos.AutoSize = true;
-            this.txtImpuestos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtImpuestos.Location = new System.Drawing.Point(14, 77);
-            this.txtImpuestos.Name = "txtImpuestos";
-            this.txtImpuestos.Size = new System.Drawing.Size(84, 20);
-            this.txtImpuestos.TabIndex = 1;
-            this.txtImpuestos.Text = "Impuestos";
+            this.textBox3.Location = new System.Drawing.Point(95, 110);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 26);
+            this.textBox3.TabIndex = 6;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(95, 71);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 26);
+            this.textBox2.TabIndex = 5;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(95, 37);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 26);
+            this.textBox1.TabIndex = 4;
+            // 
+            // txtSalidas
+            // 
+            this.txtSalidas.AutoSize = true;
+            this.txtSalidas.Location = new System.Drawing.Point(14, 141);
+            this.txtSalidas.Name = "txtSalidas";
+            this.txtSalidas.Size = new System.Drawing.Size(61, 20);
+            this.txtSalidas.TabIndex = 3;
+            this.txtSalidas.Text = "Salidas";
             // 
             // txtComido
             // 
@@ -114,42 +132,25 @@
             this.txtComido.Text = "Comida";
             this.txtComido.Click += new System.EventHandler(this.label4_Click);
             // 
-            // txtSalidas
+            // txtImpuestos
             // 
-            this.txtSalidas.AutoSize = true;
-            this.txtSalidas.Location = new System.Drawing.Point(14, 141);
-            this.txtSalidas.Name = "txtSalidas";
-            this.txtSalidas.Size = new System.Drawing.Size(61, 20);
-            this.txtSalidas.TabIndex = 3;
-            this.txtSalidas.Text = "Salidas";
+            this.txtImpuestos.AutoSize = true;
+            this.txtImpuestos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtImpuestos.Location = new System.Drawing.Point(14, 77);
+            this.txtImpuestos.Name = "txtImpuestos";
+            this.txtImpuestos.Size = new System.Drawing.Size(84, 20);
+            this.txtImpuestos.TabIndex = 1;
+            this.txtImpuestos.Text = "Impuestos";
             // 
-            // textBox1
+            // txtAlquiler
             // 
-            this.textBox1.Location = new System.Drawing.Point(95, 37);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 26);
-            this.textBox1.TabIndex = 4;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(95, 71);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 26);
-            this.textBox2.TabIndex = 5;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(95, 110);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 26);
-            this.textBox3.TabIndex = 6;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(95, 141);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 26);
-            this.textBox4.TabIndex = 7;
+            this.txtAlquiler.AutoSize = true;
+            this.txtAlquiler.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAlquiler.Location = new System.Drawing.Point(14, 43);
+            this.txtAlquiler.Name = "txtAlquiler";
+            this.txtAlquiler.Size = new System.Drawing.Size(61, 20);
+            this.txtAlquiler.TabIndex = 0;
+            this.txtAlquiler.Text = "Alquiler";
             // 
             // textBox5
             // 
@@ -162,7 +163,7 @@
             // 
             this.lblGastosVarios.AutoSize = true;
             this.lblGastosVarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGastosVarios.Location = new System.Drawing.Point(31, 327);
+            this.lblGastosVarios.Location = new System.Drawing.Point(31, 308);
             this.lblGastosVarios.Name = "lblGastosVarios";
             this.lblGastosVarios.Size = new System.Drawing.Size(170, 20);
             this.lblGastosVarios.TabIndex = 5;
@@ -170,7 +171,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(35, 350);
+            this.textBox6.Location = new System.Drawing.Point(35, 331);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(166, 20);
             this.textBox6.TabIndex = 6;
@@ -179,7 +180,7 @@
             // 
             this.cmdBorrar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.cmdBorrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdBorrar.Location = new System.Drawing.Point(52, 391);
+            this.cmdBorrar.Location = new System.Drawing.Point(36, 378);
             this.cmdBorrar.Name = "cmdBorrar";
             this.cmdBorrar.Size = new System.Drawing.Size(75, 31);
             this.cmdBorrar.TabIndex = 7;
@@ -190,7 +191,7 @@
             // 
             this.cmdGuardar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.cmdGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdGuardar.Location = new System.Drawing.Point(144, 392);
+            this.cmdGuardar.Location = new System.Drawing.Point(144, 379);
             this.cmdGuardar.Name = "cmdGuardar";
             this.cmdGuardar.Size = new System.Drawing.Size(101, 30);
             this.cmdGuardar.TabIndex = 8;
@@ -211,6 +212,7 @@
             this.Controls.Add(this.mrcGastosMensuales);
             this.Controls.Add(this.TxtFinanzas);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmFinanzas";
             this.Text = "Form1";
             this.mrcGastosMensuales.ResumeLayout(false);
