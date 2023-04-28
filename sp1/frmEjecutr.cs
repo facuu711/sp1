@@ -19,8 +19,17 @@ namespace sp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmAlacena
+            frmAlacena ventanaAlacena = new frmAlacena();
 
+            ventanaAlacena.ShowDialog();
+
+        }
+        
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frmFinanzas ventanaGastos = new frmFinanzas();
+
+            ventanaGastos.ShowDialog();
         }
     }
 }

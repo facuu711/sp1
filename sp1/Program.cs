@@ -16,7 +16,7 @@ namespace sp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmFinanzas());
+            Application.Run(new frmEjecutr());
         }
     }
 }
