@@ -31,5 +31,10 @@ namespace sp1
 
             ventanaGastos.ShowDialog();
         }
+
+        private void frmEjecutr_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
