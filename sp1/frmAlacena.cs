@@ -36,5 +36,32 @@ namespace sp1
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+         
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cboProducto.Items.Add("Milanesas");
+            cboProducto.Items.Add("Arroz");
+            cboProducto.Items.Add("Azucar");
+            cboProducto.Items.Add("Agua");
+        }
+
+        private void lblLista_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+
+
+
+

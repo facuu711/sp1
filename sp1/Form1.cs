@@ -27,6 +27,21 @@ namespace sp1
 
         }
 
+        private void lblAlquiler_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtComida_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtGastosVarios_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void txtSalidas_Click(object sender, EventArgs e)
         {
 
@@ -59,7 +74,7 @@ namespace sp1
             varComida = Convert.ToDecimal(txtComida.Text);
             varSalidas = Convert.ToDecimal(txtSalidas.Text);
             
-            varGastosVariosAhorros 
+            varGastosVariosAhorros =
             varSaldoRestante = varFinzanzas - varAlquiler - varImpuesto - varComida - varSalidas;
 
             lblSaldoRestante2.Text = varSaldoRestante.ToString();

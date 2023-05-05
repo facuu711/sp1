@@ -90,19 +90,20 @@
             // 
             // txtSalidas
             // 
-            this.txtSalidas.Location = new System.Drawing.Point(95, 141);
+            this.txtSalidas.Location = new System.Drawing.Point(95, 107);
             this.txtSalidas.Name = "txtSalidas";
             this.txtSalidas.Size = new System.Drawing.Size(100, 26);
             this.txtSalidas.TabIndex = 7;
-            this.txtSalidas.Text = "0";
+            this.txtSalidas.Text = "100";
             // 
             // txtComida
             // 
-            this.txtComida.Location = new System.Drawing.Point(95, 110);
+            this.txtComida.Location = new System.Drawing.Point(95, 135);
             this.txtComida.Name = "txtComida";
             this.txtComida.Size = new System.Drawing.Size(100, 26);
             this.txtComida.TabIndex = 6;
-            this.txtComida.Text = "0";
+            this.txtComida.Text = "50";
+            this.txtComida.TextChanged += new System.EventHandler(this.txtComida_TextChanged);
             // 
             // txtImpuestos
             // 
@@ -110,7 +111,7 @@
             this.txtImpuestos.Name = "txtImpuestos";
             this.txtImpuestos.Size = new System.Drawing.Size(100, 26);
             this.txtImpuestos.TabIndex = 5;
-            this.txtImpuestos.Text = "0";
+            this.txtImpuestos.Text = "100";
             // 
             // txtAlquiler
             // 
@@ -118,7 +119,7 @@
             this.txtAlquiler.Name = "txtAlquiler";
             this.txtAlquiler.Size = new System.Drawing.Size(100, 26);
             this.txtAlquiler.TabIndex = 4;
-            this.txtAlquiler.Text = "0";
+            this.txtAlquiler.Text = "500";
             // 
             // lblSalidas
             // 
@@ -159,6 +160,7 @@
             this.lblAlquiler.Size = new System.Drawing.Size(61, 20);
             this.lblAlquiler.TabIndex = 0;
             this.lblAlquiler.Text = "Alquiler";
+            this.lblAlquiler.Click += new System.EventHandler(this.lblAlquiler_Click);
             // 
             // txtFinanzas
             // 
@@ -166,7 +168,7 @@
             this.txtFinanzas.Name = "txtFinanzas";
             this.txtFinanzas.Size = new System.Drawing.Size(121, 20);
             this.txtFinanzas.TabIndex = 4;
-            this.txtFinanzas.Text = "0";
+            this.txtFinanzas.Text = "5000";
             // 
             // lblGastosVarios
             // 
@@ -185,6 +187,7 @@
             this.txtGastosVarios.Size = new System.Drawing.Size(166, 20);
             this.txtGastosVarios.TabIndex = 6;
             this.txtGastosVarios.Text = "0";
+            this.txtGastosVarios.TextChanged += new System.EventHandler(this.txtGastosVarios_TextChanged);
             // 
             // cmdBorrar
             // 
